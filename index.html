@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chlodnictwo-Klimatyzacja Arkadiusz Balicki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo"><strong>Chlodnictwo-Klimatyzacja</strong>
+                <br>Arkadiusz Balicki</div>
+            <div class="nav-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#dlaczego-my">Dlaczego my?</a></li>
+                        <li><a href="#oferta">Oferta</a></li>
+                        <li><a href="#zakres-montazu">Zakres montażu</a></li>
+                        <li><a href="#realizacje">Nasze realizacje</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="theme-btn" aria-label="Zmień motyw">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>Poczuj idealny chłód w swoim domu.</h1>
+            <p>Oferujemy nowoczesne, ciche i energooszczędne klimatyzatory z profesjonalnym montażem. Zapewnij sobie komfort, niezależnie od upałów na zewnątrz.</p>
+            <a href="#dlaczego-my" class="btn btn-large">Wybierz swój klimatyzator</a>
+        </div>
+    </section>
+
+    <section id="dlaczego-my">
+        <div class="container">
+            <h2 class="section-title">Dlaczego warto wybrać nasze klimatyzatory?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">❄️</div>
+                    <h3>Błyskawiczne chłodzenie</h3>
+                    <p>Optymalna temperatura przez cały rok, chłodzenie latem, grzanie zimą.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🤫</div>
+                    <h3>Niezwykle cicha praca</h3>
+                    <p>Urządzenia, które nie zakłócą Twojego snu ani codziennej pracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🍃</div>
+                    <h3>Oczyszczanie powietrza</h3>
+                    <p>Wbudowane filtry, sterylizacja powietrza - lampa UV-C, usuwają smog, alergeny i niebezpieczne bakterie.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>Sterowanie Wi-Fi</h3>
+                    <p>Kontroluj temperaturę z poziomu smartfona z dowolnego miejsca.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="oferta" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Oferta</h2>
+            <div class="offer-grid">
+                <div class="offer-card">
+                    <h3>Klimatyzatory Ścienne (Split)</h3>
+                    <p>Najpopularniejsze rozwiązanie do domów i mieszkań. Elegancki design i wydajność.</p>
+                </div>
+                <div class="offer-card">
+                    <h3>Klimatyzatory Multi-Split</h3>
+                    <p>Jedna jednostka zewnętrzna, wiele chłodzonych pomieszczeń. Oszczędność miejsca na elewacji.</p>
+                </div>
+                <div class="offer-card">
+                    <h3>Rozwiązania dla Firm</h3>
+                    <p>Klimatyzacja kanałowa idealna do przestrzeni biurowych i sklepów.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="zakres-montazu">
+        <div class="container">
+            <h2 class="section-title">Zakres montażu</h2>
+            <div class="features-grid">
+                <div class="offer-card">
+                    <h3>Profesjonalny montaż</h3>
+                    <p>Prace przeprowadzane bezpyłowo, zapewniamy serwis gwarancyjny i pogwarancyjny nawet do 7 lat.</p>
+                </div>
+                <div class="offer-card">
+                    <h3>Rozliczenie</h3>
+                    <p>Realizacja i płatności po wykonaniu usługi. Płatności bezgotówkowe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="realizacje" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Nasze realizacje</h2>
+            <ol class="steps-list">
+                <li><strong>Kontakt, darmowa konsultacja i wycena:</strong> Dzwonisz lub wysyłasz maila do nas.</li>
+                <li><strong>Audyt u klienta:</strong> Nasz specjalista dobiera odpowiednią moc i miejsce montażu.</li>
+                <li><strong>Szybki montaż:</strong> Czysta i profesjonalna instalacja w jeden dzień.</li>
+                <li><strong>Serwis i gwarancja:</strong> Cieszysz się chłodem, a my dbamy o regularne przeglądy.</li>
+            </ol>
+
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="images/photo_1.jpg" class="slide active" alt="Realizacja 1">
+                    <img src="images/photo_2.jpg" class="slide" alt="Realizacja 2">
+                    <img src="images/photo_3.jpg" class="slide" alt="Realizacja 3">
+                    <img src="images/photo_4.jpg" class="slide" alt="Realizacja 4">
+                    <img src="images/photo_5.jpg" class="slide" alt="Realizacja 5">
+                    <img src="images/photo_6.jpg" class="slide" alt="Realizacja 6">
+                </div>
+                <button class="slider-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="slider-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="bg-primary text-white">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2>Gotowy na powiew świeżego powietrza?</h2>
+            </div>
+            <div class="contact-form">
+                <h2>Arkadiusz Balicki</h2>
+                <p>📞 604 142 614</p>
+                <p>✉️ arkadiusz.balicki@wp.pl</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <p>&copy; 2026 Chlodnictwo-Klimatyzacja Arkadiusz Balicki. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            if (index >= slides.length) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = slides.length - 1;
+            } else {
+                currentSlide = index;
+            }
+
+            slides.forEach((slide, i) => {
+                if (i === currentSlide) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+        }
+
+        function changeSlide(direction) {
+            showSlide(currentSlide + direction);
+        }
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            body.setAttribute('data-theme', savedTheme);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (body.getAttribute('data-theme') === 'dark') {
+                body.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+
+</body>
+</html>
